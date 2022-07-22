@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"module": "CommonJS",
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"outDir": "lib",
+		"sourceMap": true,
+		"strict": true,
+		"target": "ES2021",
+		"allowJs": true, //should be removed once all legacy javascript files has been ported
+		"allowSyntheticDefaultImports": true, //added to resolve error TS1192 in some node modules
+		"noImplicitAny": false, // should be removed once all legacy javascript has been ported to typescript
+		"lib": ["ES2021"],
+		"resolveJsonModule": true
+	},
+	"compileOnSave": true,
+	"include": ["src", "data"]
+}
